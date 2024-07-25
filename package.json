@@ -1,6 +1,6 @@
 {
   "name": "@dl-little/fm-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Command line interface for seeding mongodb cluster with synthetic data.",
   "main": "dist/index.js",
   "bin": {
