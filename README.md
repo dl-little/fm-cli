@@ -91,7 +91,7 @@ If you don't pass any options when invoking `fm-cli`, you will be walked through
 fm-cli
 ```
 
-<img src="./example.png" width="300" />
+<img src="./example.png" />
 
 Once you've entered your Atlas URI once, the connection string will be stored in a config file and offered as a default when prompted.
 
