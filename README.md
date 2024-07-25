@@ -85,6 +85,12 @@ Options:
   -h, --help               display help for command
 </pre>
 
+Example:
+
+```bash
+fm-cli -u mongodb+srv://<UN>:<PW>@cluckster.flustyo.mongodb.net/ -d database-name -c collection-name -a 23 -type bank_account
+```
+
 If you don't pass any options when invoking `fm-cli`, you will be walked through prompts to gather the options:
 
 ```bash
