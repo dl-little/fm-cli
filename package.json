@@ -1,18 +1,25 @@
 {
-  "name": "fm-cli",
+  "name": "@dl-little/fm-cli",
   "version": "1.0.0",
-  "description": "Command line interface for Faker-Maker",
+  "description": "Command line interface for seeding mongodb cluster with synthetic data.",
   "main": "dist/index.js",
   "bin": {
     "fm-cli": "./dist/index.js"
   },
   "type": "module",
   "scripts": {
-    "build": "npx tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tsc"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "cli",
+    "npmtool",
+    "mongodb",
+    "FakerJS"
+  ],
+  "author": "Douglas Little",
+  "license": "MIT",
+  "repository": "https://github.com/dl-little/fm-cli",
+  "homepage": "https://github.com/dl-little/fm-cli#readme",
   "dependencies": {
     "@faker-js/faker": "^8.4.1",
     "@inquirer/prompts": "^5.3.2",
